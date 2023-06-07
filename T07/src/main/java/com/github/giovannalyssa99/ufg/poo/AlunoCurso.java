@@ -1,5 +1,5 @@
 package com.github.giovannalyssa99.ufg.poo;
 
-public class Aluno {
+public class AlunoCurso {
     private Curso[] cursos;
 }
