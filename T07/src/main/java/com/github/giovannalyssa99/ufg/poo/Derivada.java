@@ -1,5 +1,5 @@
 package com.github.giovannalyssa99.ufg.poo;
 
-public class Livro {
+public class Derivada extends Base {
     
 }

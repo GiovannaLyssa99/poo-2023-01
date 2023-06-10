@@ -1,6 +1,12 @@
 package com.github.giovannalyssa99.ufg.poo;
 
 class ProvaIdentificacao implements Identificacao {
+
+    @Override
+    public String getNome() {
+        return null;
+    }
+
     private byte numQuestoes;
 
     public byte getNumQuestoes() {
