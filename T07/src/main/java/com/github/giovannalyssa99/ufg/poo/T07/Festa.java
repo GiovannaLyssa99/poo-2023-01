@@ -1,9 +1,9 @@
-package com.github.giovannalyssa99.ufg.poo;
+package com.github.giovannalyssa99.ufg.poo.T07;
 
-import java.util.TreeSet;
+import java.util.Set;
 
 public class Festa {
-    private TreeSet convidados = new TreeSet();
+    private Set<Convidado> convidados;
 
     public void novoConvidado(Convidado c) {
         convidados.add(c);

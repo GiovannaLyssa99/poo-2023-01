@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo;
+package com.github.giovannalyssa99.ufg.poo.T07;
 
 class ProvaIdentificacao implements Identificacao {
 
