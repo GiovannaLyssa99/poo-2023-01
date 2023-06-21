@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo;
+package com.github.giovannalyssa99.ufg.poo.T08;
 
 public class Escola {
     public String nome;
