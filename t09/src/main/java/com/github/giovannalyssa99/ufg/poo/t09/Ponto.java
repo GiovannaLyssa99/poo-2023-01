@@ -1,10 +1,10 @@
-package com.github.giovannalyssa99.ufg.poo.T09;
+package com.github.giovannalyssa99.ufg.poo.t09;
 
 public class Ponto {
-    public int x;
-    public int y;
+    public double x;
+    public double y;
 
-    public void transladar (int dx, int dy){
+    public void transladar (double dx, double dy){
         this.x = this.x + dx;
         this.y = this.y + dy;
     }

@@ -1,11 +1,11 @@
-package com.github.giovannalyssa99.ufg.poo.T09;
+package com.github.giovannalyssa99.ufg.poo.t09;
 
 public class CirculoV1 {
-    private int centroX;
-    private int centroY;
-    private int raio;
+    private double centroX;
+    private double centroY;
+    private double raio;
 
-    public void transladar (int dx, int dy){
+    public void transladar (double dx, double dy){
         this.centroX = this.centroX + dx;
         this.centroY = this.centroY + dy;
     }

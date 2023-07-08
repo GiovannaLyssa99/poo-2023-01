@@ -1,8 +1,8 @@
-package com.github.giovannalyssa99.ufg.poo.T08;
+package com.github.giovannalyssa99.ufg.poo.t08;
 
 public class Cidade {
-    private String nome;
-    private Pais pais;
+    public String nome;
+    public Pais pais;
 
     public void setPais(Pais pais) {
         this.pais = pais;
