@@ -4,4 +4,8 @@ public class ListaDePedidos {
     private Armazem pedinte;
     private Viagem viagem;
     private String lista;
+
+    public void setPedinte(Armazem armazen) {
+        this.pedinte = armazen;
+    }
 }
