@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo.T11;
+package com.github.giovannalyssa99.ufg.poo.t11;
 
 import java.util.List;
 

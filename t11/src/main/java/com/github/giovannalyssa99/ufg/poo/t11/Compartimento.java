@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo.T11;
+package com.github.giovannalyssa99.ufg.poo.t11;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ public class Compartimento {
     private List<CD> cds;
 
     public void colocarLivro(Livro livro){
-        if(livros.size() <= 2){
+        if(this.livros.size() <= 2){
             livros.add(livro);
         }
         else{
@@ -15,13 +15,13 @@ public class Compartimento {
         }
     }
 
-    public void colocarCD(CD cd){
-        int novaQuantidade = cds.size() + 1;
+    public void colocarCD(List<CD> cd) {
+        int novaQuantidade = this.cds.size() + cd.size();
 
-        if(novaQuantidade == 2 || novaQuantidade == 4 || novaQuantidade >= 7){
-            cds.add(cd);
+        if(novaQuantidade == 2 || novaQuantidade == 4 || novaQuantidade >= 7) {
+            cds.addAll(cd);
         }
-        else{
+        else {
             System.out.println("Essa quantidade não é aceita");
         }
     }
