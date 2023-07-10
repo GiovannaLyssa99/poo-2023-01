@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo.T10;
+package com.github.giovannalyssa99.ufg.poo.t10;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.github.giovannalyssa99.ufg.poo.T10;
+package com.github.giovannalyssa99.ufg.poo.t10;
 
 import java.util.List;
 
@@ -8,5 +8,18 @@ public class Passeio {
     private String descricao;
     private String duracao;
     private double valor;
-    private List<Equipamentos> equipamentos;
+    private List<Equipamento> equipamentos;
+
+    public void setGuia(Guia guia) {
+        this.guia = guia;
+    }
+
+    public void adicionarParticipante(Cliente cliente) {
+        cliente.adicionarPasseio(this);
+        participantes.add(cliente);
+    }
+
+    public void adicionarEquipamento(Equipamento equipamento){
+        equipamentos.add(equipamento);
+    }
 }
