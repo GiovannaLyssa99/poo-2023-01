@@ -1,3 +1,3 @@
 # T07
 
-**Diretório para criação dos diagramas da tarefa T07**
+**Diretório para criação das classes da tarefa T07**

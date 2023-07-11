@@ -1,3 +1,3 @@
 # T09
 
-**Diretório para criação dos diagramas da tarefa T09**
+**Diretório para criação das classes da tarefa T09**

@@ -1,3 +1,3 @@
 # T11
 
-**Diretório para criação dos diagramas da tarefa T11**
+**Diretório para criação das classes da tarefa T11**
